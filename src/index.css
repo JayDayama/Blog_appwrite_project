@@ -10,16 +10,13 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
-/* Custom Card & Interactive Smoothness */
+
 .group:hover img {
   transform: scale(1.03);
   transition: transform 0.4s ease-in-out;
 }
 
-/* 
-  Eats up and styles the raw HTML coming from TinyMCE editor 
-  making your blog post view look exceptionally clean and aesthetic 
-*/
+
 .browser-css {
   @apply text-slate-700 leading-relaxed space-y-4;
 }
