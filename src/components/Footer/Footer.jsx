@@ -3,6 +3,12 @@ import {Link} from 'react-router-dom'
 import Logo from '../Logo'
 
 function Footer() {
+
+    const handleComingSoon = (e, featureName) => {
+        e.preventDefault();
+        alert(`${featureName} page is under construction!`);
+    };
+
   return (
     <section className="relative overflow-hidden py-10 bg-gray-400 border border-t-2 border-t-black">
             <div className="relative z-10 mx-auto max-w-7xl px-4">
@@ -14,7 +20,7 @@ function Footer() {
                             </div>
                             <div>
                                 <p className="text-sm text-gray-600">
-                                    &copy; Copyright 2023. All Rights Reserved by DevUI.
+                                    &copy; Copyright 2026. All Rights Reserved by DevUI.
                                 </p>
                             </div>
                         </div>
@@ -29,6 +35,7 @@ function Footer() {
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
+                                        onClick={(e) => handleComingSoon(e, "Features")}
                                     >
                                         Features
                                     </Link>
@@ -37,6 +44,7 @@ function Footer() {
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
+                                        onClick={(e) => handleComingSoon(e, "Pricing")}
                                     >
                                         Pricing
                                     </Link>
@@ -45,6 +53,7 @@ function Footer() {
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
+                                        onClick={(e) => handleComingSoon(e, "Affiliate Program")}
                                     >
                                         Affiliate Program
                                     </Link>
@@ -53,6 +62,7 @@ function Footer() {
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
+                                        onClick={(e) => handleComingSoon(e, "Press Kit")}
                                     >
                                         Press Kit
                                     </Link>
@@ -70,6 +80,7 @@ function Footer() {
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
+                                        onClick={(e) => handleComingSoon(e, "Account")}
                                     >
                                         Account
                                     </Link>
@@ -78,6 +89,7 @@ function Footer() {
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
+                                        onClick={(e) => handleComingSoon(e, "Help")}
                                     >
                                         Help
                                     </Link>
@@ -86,6 +98,7 @@ function Footer() {
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
+                                        onClick={(e) => handleComingSoon(e, "Contact Us")}
                                     >
                                         Contact Us
                                     </Link>
@@ -94,6 +107,7 @@ function Footer() {
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
+                                        onClick={(e) => handleComingSoon(e, "Customer Support")}
                                     >
                                         Customer Support
                                     </Link>
@@ -111,6 +125,7 @@ function Footer() {
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
+                                        onClick={(e) => handleComingSoon(e, "Terms &amp; Conditions")}
                                     >
                                         Terms &amp; Conditions
                                     </Link>
@@ -119,6 +134,7 @@ function Footer() {
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
+                                        onClick={(e) => handleComingSoon(e, "Privacy Policy")}
                                     >
                                         Privacy Policy
                                     </Link>
@@ -127,6 +143,7 @@ function Footer() {
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
+                                        onClick={(e) => handleComingSoon(e, "Licensing")}
                                     >
                                         Licensing
                                     </Link>
